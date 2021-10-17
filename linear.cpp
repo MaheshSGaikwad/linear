@@ -25,3 +25,4 @@ int main()
 	cin>>n;
 	linear(array,size,n);
 }
+//pull example
