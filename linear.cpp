@@ -1,25 +1,26 @@
 #include<iostream>
 using namespace std;
-void linear(int a[],int size,int n)
+void linear(int array[],int size,int n)
 {
 	for(int i=0;i<size;i++)
 	{
-		if(a[i]==n)
-		 cout<<"element found at index "<<i;
+		if(array[i]==n)
+		 cout<<"Element found at index "<<i;
 	}
 }
+//Refactoring of the code is done
 int main()
 {
 	int size,n;
-	cout<<"enter th esize of an array:\n";
+	cout<<"Enter the size of an array:\n";
 	cin>>size;
-	int a[size];
-	cout<<"enter the array elements:\n";
+	int array[size];
+	cout<<"Enter the array elements:\n";
 	for(int i=0;i<size;i++)
 	{
-		cin>>a[i];
+		cin>>array[i];
 	}
-	cout<<"enter the no to be searched:\n";
+	cout<<"Enter the no to be searched:\n";
 	cin>>n;
-	linear(a,size,n);
+	linear(array,size,n);
 }
