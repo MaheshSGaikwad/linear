@@ -1,3 +1,4 @@
+//search the element in an array
 #include<iostream>
 using namespace std;
 void linear(int array[],int size,int n)
